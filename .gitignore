@@ -6,6 +6,15 @@ __pycache__/
 # C extensions
 *.so
 
+# data files
+customers_table.csv
+products_table.csv
+review_id_table.csv
+vine_table.csv
+
+# jupyter notebooks
+.ipynb_checkpoints
+
 # Distribution / packaging
 .Python
 build/
@@ -25,6 +34,7 @@ share/python-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+.DS_Store
 MANIFEST
 
 # PyInstaller
